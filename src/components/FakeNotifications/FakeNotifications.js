@@ -11,7 +11,6 @@ import brazilLogo from './Images/brazil.png'
 import isMobile from "is-mobile";
 import data from './data/data.json'
 
-// Add new Elements to list and increase id by 2 from previous item
 // Add a link to the country's Logo if not present already
 const notificationItems = data
 
@@ -114,7 +113,7 @@ class FakeNotifications extends React.Component {
                                     </div>
                                     <div className="custom-notification-content-wrapper">
                                         <p className="custom-notification-content">
-                                            <p className="is-capitalized">{item.name}</p> bought <b className="is-capitalized">{item.plan} subscription</b>
+                                            <span>{item.name}</span> bought <b className="is-capitalized">{item.plan} subscription</b>
                                             <br />
                                             <b>about {this.RandomInteger() + ' hours'}</b> ago from <b className="is-capitalized">{this.textCountryToShow(item.country)}</b>
                                         </p>

@@ -153,8 +153,8 @@ class FakeNotifications extends React.Component {
         className: "custom-notification-content-wrapper"
       }, /*#__PURE__*/React.createElement("p", {
         className: "custom-notification-content"
-      }, /*#__PURE__*/React.createElement("p", {
-        className: "is-capitalized"
+      }, /*#__PURE__*/React.createElement("span", {
+        className: ""
       }, item.name), " bought ", /*#__PURE__*/React.createElement("b", {
         className: "is-capitalized"
       }, item.plan, " subscription"), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("b", null, "about ", this.RandomInteger() + ' hours'), " ago from ", /*#__PURE__*/React.createElement("b", {
