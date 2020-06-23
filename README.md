@@ -1,4 +1,4 @@
-[![npm version](https://badgen.net/npm/v/react-notifications-component)](https://www.npmjs.com/package/react-notifications-component) [![npm](https://img.shields.io/npm/dm/react-notifications-component.svg)](https://www.npmjs.com/package/react-notifications-component) [![Minified & Gzipped size](https://badgen.net/bundlephobia/minzip/react-notifications-component)](https://bundlephobia.com/result?p=react-notifications-component)
+[![npm version](https://badgen.net/npm/v/fake-notifications)](https://www.npmjs.com/package/fake-notifications) [![npm](https://badgen.net/npm/license/lodash)](https://www.npmjs.com/package/fake-notifications) [![Minified & Gzipped size](https://badgen.net/bundlephobia/minzip/react-notifications-component)](https://bundlephobia.com/result?p=react-notifications-component)
 
 # fake-notifications
 
