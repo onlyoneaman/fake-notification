@@ -5,9 +5,6 @@
   "author": "Aman Kumar",
   "license": "MIT",
   "description": "React component for creating fake payment notifications.",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "dist/FakeNotifications/FakeNotifications.js",
   "babel": {
     "presets": [
