@@ -1,19 +1,24 @@
 {
   "name": "fake-notifications",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "private": false,
   "author": "Aman Kumar",
   "license": "MIT",
-  "description":  "React component for creating fake payment notifications.",
+  "description": "React component for creating fake payment notifications.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "main": "dist/FakeNotifications/FakeNotifications.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
     ]
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
