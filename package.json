@@ -1,7 +1,18 @@
 {
   "name": "fake-notifications",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "private": false,
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "description":  "React component for creating fake payment notifications.",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,8 +25,23 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amank1647/fake-notification"
+  },
+  "bugs": {
+    "url": "https://github.com/Amank1647/fake-notification/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-notifications",
+    "notifications-components",
+    "notifications"
+  ],
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -30,5 +56,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "is-mobile": "^2.2.1"
   }
 }
