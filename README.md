@@ -22,10 +22,6 @@ Import <code>fake-notifications</code>
 ```js
 import FakeNotifications from 'fake-notifications'
 ```
-Add CSS File
-```js
-import 'fake-notifications/dist/FakeNotifications/fakenotifications.css'
-```
 
 Render <code>fake-notifications</code> at the top of your application so that it does not conflict with other absolutely positioned DOM elements.
 
