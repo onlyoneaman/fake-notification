@@ -11,8 +11,8 @@ import germanyLogo from './Images/germany.png';
 import australiaLogo from './Images/australia.jpg';
 import brazilLogo from './Images/brazil.png';
 import isMobile from "is-mobile";
-import data from './data/data.json'; // Add new Elements to list and increase id by 2 from previous item
-// Add a link to the country's Logo if not present already
+import data from './data/data.json';
+import './css/fakenotifications.css'; // Add a link to the country's Logo if not present already
 
 const notificationItems = data;
 
@@ -153,9 +153,7 @@ class FakeNotifications extends React.Component {
         className: "custom-notification-content-wrapper"
       }, /*#__PURE__*/React.createElement("p", {
         className: "custom-notification-content"
-      }, /*#__PURE__*/React.createElement("span", {
-        className: ""
-      }, item.name), " bought ", /*#__PURE__*/React.createElement("b", {
+      }, /*#__PURE__*/React.createElement("span", null, item.name), " bought ", /*#__PURE__*/React.createElement("b", {
         className: "is-capitalized"
       }, item.plan, " subscription"), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("b", null, "about ", this.RandomInteger() + ' hours'), " ago from ", /*#__PURE__*/React.createElement("b", {
         className: "is-capitalized"

@@ -11,6 +11,8 @@ import brazilLogo from './Images/brazil.png'
 import isMobile from "is-mobile";
 import data from './data/data.json'
 
+import './css/fakenotifications.css'
+
 // Add a link to the country's Logo if not present already
 const notificationItems = data
 
