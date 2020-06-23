@@ -1,0 +1,6 @@
+/public
+/.idea
+package-lock.json
+.gitignore
+yarn.lock
+/src

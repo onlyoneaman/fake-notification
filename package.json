@@ -21,7 +21,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "is-mobile": "^2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -61,7 +62,6 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "is-mobile": "^2.2.1"
+    "@babel/preset-react": "^7.10.1"
   }
 }
