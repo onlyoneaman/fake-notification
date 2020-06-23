@@ -16,17 +16,13 @@ import data from './data/data.json'
 const notificationItems = data
 
 class FakeNotifications extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state({
-            close: false,
-            item: null,
-            show: true,
-            time: 5000,
-            showInMobile: false
-        })
+    state = {
+        close: false,
+        item: null,
+        show: true,
+        time: 5000,
+        showInMobile: false
     }
-
 
     Image = (country) => {
         country = country.toUpperCase();

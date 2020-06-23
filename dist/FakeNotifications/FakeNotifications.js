@@ -17,8 +17,16 @@ import data from './data/data.json'; // Add new Elements to list and increase id
 const notificationItems = data;
 
 class FakeNotifications extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      close: false,
+      item: null,
+      show: true,
+      time: 5000,
+      showInMobile: false
+    });
 
     _defineProperty(this, "Image", country => {
       country = country.toUpperCase();
@@ -84,14 +92,6 @@ class FakeNotifications extends React.Component {
         default:
           return name[0].toUpperCase() + name.slice(1);
       }
-    });
-
-    this.state({
-      close: false,
-      item: null,
-      show: true,
-      time: 5000,
-      showInMobile: false
     });
   }
 
