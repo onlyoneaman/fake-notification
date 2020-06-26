@@ -97,7 +97,7 @@ class FakeNotifications extends React.Component {
     render() {
         let item = this.state.item;
         if(item === null) {
-            return <div />
+            item = this.pickRandomObject()
         }
         if(!this.state.showInMobile && isMobile()) {
             return <div />
